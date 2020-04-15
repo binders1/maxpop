@@ -9,7 +9,7 @@ function ModelOutput = humanlimits(PAR,waterflux,farmed,irrigated,growperiod,eiA
 % PAR is a 3d geospatial array of values representing photosynthetically active radiation (MJ per m2 per day) in each grid cell period
 % WATERFLUX is a 3d geospatial array of values representing Precipitation - PET for each grid cell period, in mm or kg per m2
 % FARMED is a 2d geospatial array designating the fraction of each grid cell cultivated
-% IRRIGATED is a 2d geospatial designating the fraction of each grid cell irrigated
+% IRRIGATED is a 2d geospatial designating the fraction of cultivated land irrigated in each grid cell
 % GROWPERIOD is a binary 3d geospatial array indicating whether or not a given day or composite period falls within the plant growing season
 %%% Note: FARMED, IRRIGATED, and GROWPERIOD can be set to a scalar 1, to simplify the specification of extreme scenarios
 % EIARRAY is a 3d geospatial array denoting the fraction of light intercepted by crop leaves in each grid cell-day
